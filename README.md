@@ -6,7 +6,7 @@ Practice repo for rehearsing our GitHub collaboration exam. Stack: **PHP + MySQL
 
 | Role | Name | Task | Branch |
 |---|---|---|---|
-| Lead | (you) | Repo setup, review + merge all PRs | `feature/lead-scaffold-integration` |
+| Lead | Ralph | Repo setup, review + merge all PRs | `feature/lead-scaffold-integration` |
 | Backend | Aaron | Implement `api/create.php` + `api/read.php` | `feature/backend-create-read` |
 | Backend | Johnpaul | Implement `api/update.php` + `api/delete.php` | `feature/backend-update-delete` |
 | Frontend | Joshua | Implement `renderTasks()` in `public/js/app.js` | `feature/frontend-list-view` |
