@@ -1,4 +1,5 @@
 # Contributing Guidelines
+⚠️ Follow these rules. Skipping them — pushing straight to main, committing on someone else's branch, ignoring the PR/review step — will likely cause merge conflicts, overwritten work, or a broken repo right before the exam. If something goes wrong, stop and ask the lead before trying to "fix" it yourself.
 
 ## 1. Branching
 
