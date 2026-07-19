@@ -14,13 +14,16 @@ if (!$title) {
     exit;
 }
 
-// TODO (Backend Member A):
-// $stmt = $conn->prepare("INSERT INTO tasks (title) VALUES (?)");
-// $stmt->bind_param("s", $title);
-// $stmt->execute();
-// $newId = $stmt->insert_id;
-// http_response_code(201);
-// echo json_encode(["id" => $newId, "title" => $title, "completed" => false]);
 
-http_response_code(501);
-echo json_encode(["error" => "create.php not implemented yet"]);
+$stmt = $conn->prepare("INSERT INTO tasks (title) VALUES (?)");
+$stmt->bind_param("s", $title);
+$stmt->execute();
+
+$newId = $stmt->insert_id;
+
+http_response_code(201);
+echo json_encode([
+    "id" => $newId, 
+    "title" => $title, 
+    "completed" => false
+]);
