@@ -1,5 +1,3 @@
-# Tonight's Rehearsal
-
 ## Step 0 — Lead sets up the repo
 
 ```bash
