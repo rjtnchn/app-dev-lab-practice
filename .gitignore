@@ -1,0 +1,11 @@
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local env/config overrides, if you add any later
+.env

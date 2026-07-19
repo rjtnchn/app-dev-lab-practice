@@ -1,0 +1,8 @@
+# Auto-requests a review from the matching owner when a PR touches these paths.
+# Fill in real usernames.
+
+/api/     @backend-member-1 @backend-member-2
+/config/  @backend-member-1 @backend-member-2
+/public/  @frontend-member-1 @frontend-member-2
+
+*         @project-lead-username
