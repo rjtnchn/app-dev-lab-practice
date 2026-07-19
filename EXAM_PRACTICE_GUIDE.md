@@ -1,18 +1,3 @@
-## Step 0 — Lead sets up the repo
-
-```bash
-cd practice-repo
-git add .
-git commit -m "chore: initial project scaffold"
-git branch -M main
-git remote add origin https://github.com/<your-username>/appdev-lab-practice.git
-git push -u origin main
-```
-
-Then on GitHub:
-- **Settings → Collaborators** → add your 4 teammates
-- **Settings → Branches → Add rule** for `main`: require PR + 1 approval before merging
-
 ## Step 1 — Everyone clones and sets up locally
 
 ```bash
