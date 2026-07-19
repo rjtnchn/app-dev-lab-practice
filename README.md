@@ -4,13 +4,15 @@ Practice repo for rehearsing our GitHub collaboration exam. Stack: **PHP + MySQL
 
 ## Team
 
-| Role | Name | GitHub Username |
-|---|---|---|
-| Lead | | |
-| Backend | | |
-| Backend | | |
-| Frontend | | |
-| Frontend | | |
+| Role | Name | Task | Branch |
+|---|---|---|---|
+| Lead | (you) | Repo setup, review + merge all PRs | `feature/lead-scaffold-integration` |
+| Backend | Aaron | Implement `api/create.php` + `api/read.php` | `feature/backend-create-read` |
+| Backend | Johnpaul | Implement `api/update.php` + `api/delete.php` | `feature/backend-update-delete` |
+| Frontend | Joshua | Implement `renderTasks()` in `public/js/app.js` | `feature/frontend-list-view` |
+| Frontend | Shane | Implement `handleCreate/Update/Delete()` in `public/js/app.js` | `feature/frontend-form-crud` |
+
+Full task details and step-by-step rehearsal: see `EXAM_PRACTICE_GUIDE.md`.
 
 ## Setup
 
